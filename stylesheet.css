@@ -1,0 +1,110 @@
+
+/* Base Page Styling */
+body {
+  background-image: url(monkey-d-luffy-3840x2160-260353.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-color: #211719; 
+  color: #F5F0E8;           
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;         
+}
+
+/* Header & Navigation Bar */
+header {
+  background-color: #211719; 
+  color: #9b4040;          
+  border-radius: 8px;
+  text-align: center;      
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  color: #FF3B4F
+}
+
+/* Header border */
+header {
+border: 3px solid #FF3B4F;
+border-radius: 12px;
+}
+
+nav a {
+  color: #FF3B4F;         
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Horizontal Dividers */
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #FF3B4F; 
+  margin: 25px 0;
+}
+
+/* Horizontal lines */
+hr {
+border-style: solid;
+border-width: 1px;
+border-color: #FF3B4F;
+}
+
+/* Heading Levels (H1 to H6) */
+h1, h2, h3, h4, h5, h6 {
+  color: #FF3B4F;           
+  text-align: center;       
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Image Formatting */
+img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FF3B4F;
+  border-radius: 10px;
+}
+
+/* Profile picture border */
+body > img {
+border-style: solid;
+border-width: 3px;
+border-color: #FF3B4F;
+border-radius: 10px;
+}
+
+
+/* Text Paragraphs */
+p {
+   color: #F5F0E8;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto 15px auto;
+  text-align: center;    
+}
+
+/* Unordered & Ordered Lists Alignment */
+ul, ol {
+  display: inline-block;
+  text-align: left;          
+  margin: 10px auto 20px auto;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;       
+  color: #718096;          
+  font-size: 14px;
+}
+
+/* Footer border */
+footer {
+border-top: 2px solid #FF3B4F;
+}
